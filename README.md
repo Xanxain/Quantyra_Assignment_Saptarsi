@@ -101,7 +101,7 @@ You can find it in:
 frontend/src/services/Api.js
 
 Example:
-const BASE_URL = "https://quantyra-assignment-saptarsi.onrender.com";
+const BASE_URL = "https://random.onrender.com";
 
 If needed, this can be replaced with environment variables for better configuration management.
 
