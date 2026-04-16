@@ -1,6 +1,6 @@
 import Feedback from "../models/feedback.model.js";
-import { callLLM } from "../services/llmService.js";
-import { validateLLM } from "../services/validator.js";
+import { callLLM } from "../Services/llmService.js";
+import { validateLLM } from "../Services/validator.js";
 
 export const createFeedback = async (req, res) => {
   try {
