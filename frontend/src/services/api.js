@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://quantyra-assignment-saptarsi.onrender.com";
 
 export const submitFeedback = async (text) => {
   const res = await fetch(`${BASE_URL}/api/feedback`, {
